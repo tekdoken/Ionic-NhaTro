@@ -1,0 +1,7 @@
+{
+  "name": "nha-tro",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
