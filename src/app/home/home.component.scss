@@ -26,10 +26,16 @@
   text-decoration: none;
 }
 
+//.img-ava {
+//  border-radius: 10px;
+//  width: 100%;
+//  height: 100%
+//}
 .img-ava {
   border-radius: 10px;
   width: 113px;
-  height: 113px
+  height: 113px;
+  //position: absolute;
 }
 
 .ic {
@@ -56,18 +62,38 @@
 
 .in1 {
   margin-top: 17px;
-  margin-left: 5px
+  margin-left: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 80%;
 }
 
 .in {
   margin-top: 5px;
   margin-left: 5px;
   margin-bottom: 0 !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 80%;
 }
-a{
+
+.rat {
   color: #0d0d0d;
   text-decoration: underline #000000;
   margin-top: 5px;
   margin-left: 5px;
   margin-bottom: 0 !important;
 }
+
+#sort {
+  color: #0d0d0d;
+  margin-top: 5px;
+  margin-bottom: 0 !important;
+}
+
+#sor .row {
+  width: 16px
+}
+
