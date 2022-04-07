@@ -33,27 +33,31 @@
 //}
 .img-ava {
   border-radius: 10px;
-  width: 113px;
-  height: 113px;
-  //position: absolute;
+  width: 108px;
+  height: 108px;
+  position: relative;
+}
+
+.item {
+  height: 22% !important;
 }
 
 .ic {
-  margin-top: 7px;
+  margin-top: 4px;
   height: 21px;
   width: 21px;
   color: #0eaf4d;
 }
 
 .ics {
-  margin-top: 5px;
+  margin-top: 4px;
   height: 21px;
   width: 21px;
   color: #fff200;
 }
 
 .ic1 {
-  margin-top: 17px;
+  margin-top: 0px;
   height: 21px;
   width: 21px;
   color: #0eaf4d;
@@ -61,7 +65,7 @@
 }
 
 .in1 {
-  margin-top: 17px;
+  margin-top: 0px;
   margin-left: 5px;
   white-space: nowrap;
   overflow: hidden;
@@ -70,7 +74,7 @@
 }
 
 .in {
-  margin-top: 5px;
+  margin-top: 4px;
   margin-left: 5px;
   margin-bottom: 0 !important;
   white-space: nowrap;
@@ -82,7 +86,7 @@
 .rat {
   color: #0d0d0d;
   text-decoration: underline #000000;
-  margin-top: 5px;
+  margin-top: 3px;
   margin-left: 5px;
   margin-bottom: 0 !important;
 }
@@ -94,6 +98,16 @@
 }
 
 #sor .row {
-  width: 16px
+  width: 12px
 }
 
+#sor .row ion-icon {
+  color: #0eaf4d
+}
+
+.un {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  width: 100%;
+  border-style: none none inset;
+}
